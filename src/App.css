@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  padding: 0 10px;
+  max-height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.employees-list {
+  width: 60%;
+  overflow-y: auto;
+}
+
+.employees-list-content {
+  display: flex;
+  row-gap: 5px;
+  padding: 0 10px;
+}
+
+.employees-birthday {
+  flex: 1 1 auto;
+  border-left: 3px solid lightgray;
+  padding: 0 10px;
+}
+
+.employee-card {
+  min-width: 150px;
+  margin: 10px 5px;
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.char-list {
+  padding: 5px;
+}
+
+.active {
+  color: blue;
+}
+
+.empty {
+  border-color: red;
+}
